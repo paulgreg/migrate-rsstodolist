@@ -62,7 +62,7 @@ config.feeds.map(feed => {
                 })
                 .catch(e => {
                     nbError++
-                    console.error(`< reponse: ${response.statusCode} - ${url}`)
+                    console.error(`< reponse: ${e} - ${url}`)
                     if (nbError > 10) throw new Error('too much errors')
                 })
             }
