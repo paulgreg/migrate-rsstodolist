@@ -1,0 +1,17 @@
+{
+  "name": "migrate-rsstodolist",
+  "version": "1.0.0",
+  "description": "migration script between 2 rsstodolist instances",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "paulgreg",
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.87.0",
+    "request-promise-native": "^1.0.5",
+    "throat": "^4.1.0",
+    "xml2js": "^0.4.19"
+  }
+}

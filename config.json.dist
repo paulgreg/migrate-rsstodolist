@@ -1,0 +1,7 @@
+{
+    "source": "https://rsstodolist.appspot.com/",
+    "target": "https://your-private-rsstodolist-instance/",
+    "feeds": [
+        "random"
+    ]
+}
