@@ -33,7 +33,7 @@ function alreadyInTarget(array, link) {
 }
 
 function cleanUrl (url) {
-    return url.replace(/&?utm_.+?(&|$)/g, '')
+    return url.replace(/&amp;/g, '&').replace(/&?utm_.+?(&|$)/g, '')
 }
 
 sequential(config.feeds.map(feed => {
